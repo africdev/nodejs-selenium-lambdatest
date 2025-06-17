@@ -4,8 +4,9 @@
   "description": "![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
-  },
+  "start": "node server.js",
+  "test": "node index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/4msha/nodejs-selenium-sample.git"
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/4msha/nodejs-selenium-sample#readme",
   "dependencies": {
     "dotenv": "^16.5.0",
+    "express": "^5.1.0",
     "selenium-webdriver": "^4.9.0"
   }
 }

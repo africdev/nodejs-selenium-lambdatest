@@ -1,5 +1,7 @@
 const webdriver = require('selenium-webdriver');
 const By = webdriver.By;
+require('dotenv').config();
+
 
 // Setup LambdaTest authentication and grid URL
 const USERNAME = process.env.LT_USERNAME;

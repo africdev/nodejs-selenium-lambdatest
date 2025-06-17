@@ -11,6 +11,7 @@
 */
 
 const webdriver = require('selenium-webdriver');
+require('dotenv').config();
 
 // username: Username can be found at automation dashboard
 const username = process.env.LT_USERNAME;

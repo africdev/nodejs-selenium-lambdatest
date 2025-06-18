@@ -29,7 +29,7 @@ async function typeWithDelay(driver, selector, text) {
     accessKey: process.env.LT_ACCESS_KEY,
     platformName: 'macOS Ventura',
     resolution: '1024x768',
-    build: 'WLMJ Mint Test',
+    build: 'WLMJ Mint Test Desktop',
     name: 'WLMJ BAD ETH Test - macOS Ventura - Safari - 1024x768',
     video: true,
     network: true,

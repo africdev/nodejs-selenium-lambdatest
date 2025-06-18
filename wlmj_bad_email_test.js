@@ -29,7 +29,7 @@ async function typeWithDelay(driver, selector, text) {
     accessKey: process.env.LT_ACCESS_KEY,
     platformName: 'Windows 11',
     resolution: '1024x768',
-    build: 'WLMJ Mint Test',
+    build: 'WLMJ Mint Test Desktop',
     name: 'WLMJ BAD Email Test - Windows 11 - Chrome - 1024x768',
     video: true,
     network: true,
